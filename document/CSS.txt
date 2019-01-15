@@ -1,0 +1,8 @@
+# 2019-01-15
+# 关于css 中 margin-left等定位元素的理解
+margin-left 是自身关于父亲left边框的距离
+本身设置为float:left/right 定位后,将浮动于父元素, 文档流就发生变化，不再是上下流，而是左右流，margin-left可以改变位置
+position, display, float 都可以理解为定位属性，都是对自己的设定，但是display影响的是子元素
+
+#font
+font中设定字体size 中 如 p1 px/ p2 px, 则文字的line-height 为 p2 px;
